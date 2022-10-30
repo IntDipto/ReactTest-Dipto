@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import { useLoaderData } from 'react-router-dom'
+import { Link, useLoaderData } from 'react-router-dom'
 import './../App.css'
 
 function Products() {
     const products = useLoaderData()
-    // console.log(products);
+    console.log(products);
 
   return (
     <div className='products container'>
@@ -32,7 +32,9 @@ function Product({product}){
     return (
         <div className="product">
             <div style={{backgroundColor: "#F1F3F4", height: "250px"}}>
-                <img style={{padding:"27px 9px", width:'178px' ,height:'185px'}} src={product.imgMain} alt="" srcSet="" />
+                <Link to={`/product-details/${product.id}`}>
+                    <img style={{padding:"27px 9px", width:'178px' ,height:'185px'}} src={product.imgMain} alt="" srcSet="" />
+                </Link>
             </div>
             <p className='product-category'>Men</p>
             <p className='product-name'>Short T-Shirt</p>

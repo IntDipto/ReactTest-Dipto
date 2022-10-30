@@ -3,6 +3,7 @@ import './App.css';
 import { createBrowserHistory } from '@remix-run/router';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Products from './Products/Products';
+import ProductDetails from './Product-details/ProductDetails';
 
 function App() {
   const router = createBrowserRouter([
@@ -12,9 +13,9 @@ function App() {
       element : <Products></Products>
     },
     {
-      path: '/product-details',
+      path: '/product-details/:id',
       loader: () => fetch('products.json'),
-      element : <Products></Products>
+      element : <ProductDetails></ProductDetails>
     }
 
   ])

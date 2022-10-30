@@ -18,6 +18,7 @@ a {
 }
 .container{
   max-width: 1296px;
+  margin: 56px auto;
 }
 .products h3{
   font-size: 32px;
@@ -148,7 +149,7 @@ a {
   color: white;
   padding: 2px 5px;
   position: relative;
-  opacity: 0;
+  display: none;
 }
 
 .tooltip::before{
@@ -165,10 +166,11 @@ a {
 
 .extra-btns:hover{
   background-color: #1A3C40;
+  transition: all linear .3s;
 }
 
 .extra-btns:hover + .tooltip{
-  opacity: 100;
+  display: block;
 }
 
 .extra-btns:hover svg path{
@@ -196,7 +198,4 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
-
-
