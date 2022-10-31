@@ -128,7 +128,6 @@ function ProductDetails() {
                 <div className="product-color">
                     {data?.color?.map((bgColor, i) => (
                         <div key={i} style={{ backgroundColor: bgColor }} className="c-color">
-                            
                         </div>
                     ))}
                 </div>
