@@ -1,141 +1,277 @@
 [
-    {
-      "id": "635e0c27353829a95b7be3e7",
-      "name": "Dickson Vega",
-      "rating": 40,
-      "color": ["#015952" ,"#EEEE22", "#FFB6C1"],
-      "size": ["M", "L", "XL", "XXL"],
-      "price": 28,
-      "imgMain": "https://i.ibb.co/sqFbQhb/4455-02-1.png",
-      "descImg": ["https://i.ibb.co/6RnhwKS/s-img3.png","https://i.ibb.co/HYn6y8r/s-img2.png","https://i.ibb.co/Dwd4wjv/s-img.png"],
-      "categoty": "man",
-      "discount": 15,
-      "productStatus" : "Sell",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum."
-    },
-    {
-      "id": "635e0c279b970618e79a76fa",
-      "name": "Camacho Morrow",
-      "rating": 23,
-      "color": ["#015952" ,"#EEEE22", "#FFB6C1"],
-      "size": ["M", "L", "XL", "XXL"],
-      "price": 24,
-      "imgMain": "https://i.ibb.co/ZM6R05C/Image.png",
-      "descImg": ["https://i.ibb.co/6RnhwKS/s-img3.png","https://i.ibb.co/HYn6y8r/s-img2.png","https://i.ibb.co/Dwd4wjv/s-img.png"],
-      "categoty": "man",
-      "discount": "",
-      "productStatus" : "",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum."
-    },
-    {
-      "id": "635e0c2705c195fef71c3efe",
-      "name": "Duffy Oneill",
-      "rating": 33,
-      "color": ["#015952" ,"#EEEE22", "#FFB6C1","#4CBD6B"],
-      "size": ["M", "L", "XL", "XXL"],
-      "price": 33,
-      "imgMain": "https://i.ibb.co/r3sJT19/image-51-removebg-preview.png",
-      "descImg": ["https://i.ibb.co/6RnhwKS/s-img3.png","https://i.ibb.co/HYn6y8r/s-img2.png","https://i.ibb.co/Dwd4wjv/s-img.png"],
-      "categoty": "man",
-      "discount": "",
-      "productStatus" : "Popular",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum."
-    },
-    {
-      "id": "635e0c272f194c6ca12117ac",
-      "name": "Lott Burnett",
-      "rating": 27,
-      "color": ["#015952" ,"#EEEE22", "#FFB6C1"],
-      "size": ["M", "L", "XL", "XXL"],
-      "price": 40,
-      "imgMain": "https://i.ibb.co/sqFbQhb/4455-02-1.png",
-      "descImg": ["https://i.ibb.co/6RnhwKS/s-img3.png","https://i.ibb.co/HYn6y8r/s-img2.png","https://i.ibb.co/Dwd4wjv/s-img.png"],
-      "categoty": "man",
-      "discount": 20,
-      "productStatus" : "Sell",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum."
-    },
-    {
-      "id": "635e0c273bc8e662c0f87dc3",
-      "name": "Sasha Rogers",
-      "rating": 31,
-      "color": ["#015952" ,"#EEEE22", "#FFB6C1"],
-      "size": ["M", "L", "XL", "XXL"],
-      "price": 35,
-      "imgMain": "https://i.ibb.co/ZM6R05C/Image.png",
-      "descImg": ["https://i.ibb.co/6RnhwKS/s-img3.png","https://i.ibb.co/HYn6y8r/s-img2.png","https://i.ibb.co/Dwd4wjv/s-img.png"],
-      "categoty": "man",
-      "discount": "",
-      "productStatus" : "",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum."
-    },
-    {
-      "id": "635e0c27e023dcb5c62e1ff3",
-      "name": "Susan Haney",
-      "rating": 37,
-      "color": ["#015952" ,"#EEEE22", "#FFB6C1"],
-      "size": ["M", "L", "XL", "XXL"],
-      "price": 34,
-      "imgMain": "https://i.ibb.co/r3sJT19/image-51-removebg-preview.png",
-      "descImg": ["https://i.ibb.co/6RnhwKS/s-img3.png","https://i.ibb.co/HYn6y8r/s-img2.png","https://i.ibb.co/Dwd4wjv/s-img.png"],
-      "categoty": "man",
-      "discount": "",
-      "productStatus" : "popular",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum."
-    },
-    {
-      "id": "635e0c27f9d80ff183648904",
-      "name": "Cristina Trujillo",
-      "rating": 30,
-      "color": ["#015952" ,"#EEEE22", "#FFB6C1","#4CBD6B"],
-      "size": ["M", "L", "XL", "XXL"],
-      "price": 37,
-      "imgMain": "https://i.ibb.co/sqFbQhb/4455-02-1.png",
-      "descImg": ["https://i.ibb.co/6RnhwKS/s-img3.png","https://i.ibb.co/HYn6y8r/s-img2.png","https://i.ibb.co/Dwd4wjv/s-img.png"],
-      "categoty": "man",
-      "discount": "",
-      "productStatus" : "",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum."
-    },
-    {
-      "id": "635e0c2723b352529d9e1d0e",
-      "name": "Lynn Terrell",
-      "rating": 21,
-      "color": ["#015952" ,"#EEEE22", "#FFB6C1"],
-      "size": ["M", "L", "XL", "XXL"],
-      "price": 25,
-      "imgMain": "https://i.ibb.co/ZM6R05C/Image.png",
-      "descImg": ["https://i.ibb.co/6RnhwKS/s-img3.png","https://i.ibb.co/HYn6y8r/s-img2.png","https://i.ibb.co/Dwd4wjv/s-img.png"],
-      "categoty": "man",
-      "discount": "",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum."
-    },
-    {
-      "id": "635e0c27307eb1760d606ea1",
-      "name": "Gonzales Arnold",
-      "rating": 20,
-      "color": ["#015952" ,"#EEEE22", "#FFB6C1"],
-      "size": ["M", "L", "XL", "XXL"],
-      "price": 39,
-      "imgMain": "https://i.ibb.co/r3sJT19/image-51-removebg-preview.png",
-      "descImg": ["https://i.ibb.co/6RnhwKS/s-img3.png","https://i.ibb.co/HYn6y8r/s-img2.png","https://i.ibb.co/Dwd4wjv/s-img.png"],
-      "categoty": "man",
-      "discount": "",
-      "productStatus" : "",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum."
-    },
-    {
-      "id": "635e0c2701067dd9fc4a75a8",
-      "name": "Moran Mclaughlin",
-      "rating": 35,
-      "color": ["#015952" ,"#EEEE22", "#FFB6C1","#4CBD6B"],
-      "size": ["M", "L", "XL", "XXL"],
-      "price": 20,
-      "imgMain": "https://i.ibb.co/sqFbQhb/4455-02-1.png",
-      "descImg": ["https://i.ibb.co/6RnhwKS/s-img3.png","https://i.ibb.co/HYn6y8r/s-img2.png","https://i.ibb.co/Dwd4wjv/s-img.png"],
-      "categoty": "man",
-      "discount": 12,
-      "productStatus" : "sell",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum."
-    }
-  ]
+  {
+    "id": "635e0c27353829a95b7be3e7",
+    "name": "Mens Full T-shirt ",
+    "rating": 40,
+    "color": [
+      "#015952",
+      "#EEEE22",
+      "#FFB6C1"
+    ],
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "price": 28,
+    "imgMain": "https://i.ibb.co/sqFbQhb/4455-02-1.png",
+    "descImg": [
+      "https://i.ibb.co/6RnhwKS/s-img3.png",
+      "https://i.ibb.co/HYn6y8r/s-img2.png",
+      "https://i.ibb.co/Dwd4wjv/s-img.png",
+      "https://i.ibb.co/6RnhwKS/s-img3.png",
+      "https://i.ibb.co/HYn6y8r/s-img2.png",
+      "https://i.ibb.co/Dwd4wjv/s-img.png"
+    ],
+    "categoty": "men",
+    "discount": 15,
+    "productStatus": "Sell",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum."
+  },
+  {
+    "id": "635e0c279b970618e79a76fa",
+    "name": "Deep Organge pant",
+    "rating": 23,
+    "color": [
+      "#015952",
+      "#EEEE22",
+      "#FFB6C1"
+    ],
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "price": 24,
+    "imgMain": "https://i.ibb.co/ZM6R05C/Image.png",
+    "descImg": [
+      "https://i.ibb.co/6RnhwKS/s-img3.png",
+      "https://i.ibb.co/HYn6y8r/s-img2.png",
+      "https://i.ibb.co/Dwd4wjv/s-img.png"
+    ],
+    "categoty": "woman",
+    "discount": "",
+    "productStatus": "",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum."
+  },
+  {
+    "id": "635e0c2705c195fef71c3efe",
+    "name": "Half T-shirt",
+    "rating": 33,
+    "color": [
+      "#015952",
+      "#EEEE22",
+      "#FFB6C1",
+      "#4CBD6B"
+    ],
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "price": 33,
+    "imgMain": "https://i.ibb.co/r3sJT19/image-51-removebg-preview.png",
+    "descImg": [
+      "https://i.ibb.co/6RnhwKS/s-img3.png",
+      "https://i.ibb.co/HYn6y8r/s-img2.png",
+      "https://i.ibb.co/Dwd4wjv/s-img.png"
+    ],
+    "categoty": "woman",
+    "discount": "",
+    "productStatus": "Popular",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum."
+  },
+  {
+    "id": "635e0c272f194c6ca12117ac",
+    "name": "Mens Full T-shirt",
+    "rating": 27,
+    "color": [
+      "#015952",
+      "#EEEE22",
+      "#FFB6C1"
+    ],
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "price": 40,
+    "imgMain": "https://i.ibb.co/sqFbQhb/4455-02-1.png",
+    "descImg": [
+      "https://i.ibb.co/6RnhwKS/s-img3.png",
+      "https://i.ibb.co/HYn6y8r/s-img2.png",
+      "https://i.ibb.co/Dwd4wjv/s-img.png"
+    ],
+    "categoty": "onsell",
+    "discount": 20,
+    "productStatus": "Sell",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum."
+  },
+  {
+    "id": "635e0c273bc8e662c0f87dc3",
+    "name": "Orange Half pant",
+    "rating": 31,
+    "color": [
+      "#015952",
+      "#EEEE22",
+      "#FFB6C1"
+    ],
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "price": 35,
+    "imgMain": "https://i.ibb.co/ZM6R05C/Image.png",
+    "descImg": [
+      "https://i.ibb.co/6RnhwKS/s-img3.png",
+      "https://i.ibb.co/HYn6y8r/s-img2.png",
+      "https://i.ibb.co/Dwd4wjv/s-img.png"
+    ],
+    "categoty": "new",
+    "discount": "",
+    "productStatus": "",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum."
+  },
+  {
+    "id": "635e0c27e023dcb5c62e1ff3",
+    "name": "Half T-shirt",
+    "rating": 37,
+    "color": [
+      "#015952",
+      "#EEEE22",
+      "#FFB6C1"
+    ],
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "price": 34,
+    "imgMain": "https://i.ibb.co/r3sJT19/image-51-removebg-preview.png",
+    "descImg": [
+      "https://i.ibb.co/6RnhwKS/s-img3.png",
+      "https://i.ibb.co/HYn6y8r/s-img2.png",
+      "https://i.ibb.co/Dwd4wjv/s-img.png"
+    ],
+    "categoty": "man",
+    "discount": "",
+    "productStatus": "popular",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum."
+  },
+  {
+    "id": "635e0c27f9d80ff183648904",
+    "name": "Black T-shirt",
+    "rating": 30,
+    "color": [
+      "#015952",
+      "#EEEE22",
+      "#FFB6C1",
+      "#4CBD6B"
+    ],
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "price": 37,
+    "imgMain": "https://i.ibb.co/sqFbQhb/4455-02-1.png",
+    "descImg": [
+      "https://i.ibb.co/6RnhwKS/s-img3.png",
+      "https://i.ibb.co/HYn6y8r/s-img2.png",
+      "https://i.ibb.co/Dwd4wjv/s-img.png"
+    ],
+    "categoty": "man",
+    "discount": "",
+    "productStatus": "",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum."
+  },
+  {
+    "id": "635e0c2723b352529d9e1d0e",
+    "name": "Deep Organge pant",
+    "rating": 21,
+    "color": [
+      "#015952",
+      "#EEEE22",
+      "#FFB6C1"
+    ],
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "price": 25,
+    "imgMain": "https://i.ibb.co/ZM6R05C/Image.png",
+    "descImg": [
+      "https://i.ibb.co/6RnhwKS/s-img3.png",
+      "https://i.ibb.co/HYn6y8r/s-img2.png",
+      "https://i.ibb.co/Dwd4wjv/s-img.png"
+    ],
+    "categoty": "woman",
+    "discount": "",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum."
+  },
+  {
+    "id": "635e0c27307eb1760d606ea1",
+    "name": "Half T-shirt",
+    "rating": 20,
+    "color": [
+      "#015952",
+      "#EEEE22",
+      "#FFB6C1"
+    ],
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "price": 39,
+    "imgMain": "https://i.ibb.co/r3sJT19/image-51-removebg-preview.png",
+    "descImg": [
+      "https://i.ibb.co/6RnhwKS/s-img3.png",
+      "https://i.ibb.co/HYn6y8r/s-img2.png",
+      "https://i.ibb.co/Dwd4wjv/s-img.png"
+    ],
+    "categoty": "onsell",
+    "discount": "",
+    "productStatus": "",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum."
+  },
+  {
+    "id": "635e0c2701067dd9fc4a75a8",
+    "name": "Mens Full T-shirt ",
+    "rating": 35,
+    "color": [
+      "#015952",
+      "#EEEE22",
+      "#FFB6C1",
+      "#4CBD6B"
+    ],
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "price": 20,
+    "imgMain": "https://i.ibb.co/sqFbQhb/4455-02-1.png",
+    "descImg": [
+      "https://i.ibb.co/6RnhwKS/s-img3.png",
+      "https://i.ibb.co/HYn6y8r/s-img2.png",
+      "https://i.ibb.co/Dwd4wjv/s-img.png"
+    ],
+    "categoty": "new",
+    "discount": 12,
+    "productStatus": "sell",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus amet, gravida cras nulla arcu. Interdum adipiscing morbi in lacus, sed euismod ipsum dictum."
+  }
+]

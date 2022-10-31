@@ -1,20 +1,39 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { Link, useLoaderData } from 'react-router-dom'
 import './../App.css'
 
 function Products() {
-    const products = useLoaderData()
-    console.log(products);
+    let dbProducts = useLoaderData()
+    const [products, Setproducts] = useState(dbProducts);
+    const [allProduct, setAllProduct] = useState(dbProducts)
+    const [activebtn, setActiveBtn] = useState('all');
+    // console.log(products);
+    const filterItems = (e) =>{
+       
+        if(e === "all"){
+            Setproducts(allProduct)
+            setActiveBtn(e);
+            return
+        }
+        setActiveBtn(e);
+        Setproducts(allProduct)
+        const filtedProducts  =  allProduct?.filter(product => product.categoty === e)
+        Setproducts(filtedProducts);
+        // products = filtedProducts
+        // console.log(filtedProducts);
+    }
+    // console.log(activebtn);
+    // btn-active btn
 
   return (
     <div className='products container'>
         <h3>Recommend only for you</h3>
         <div className="btn-container">
-            <button className='btn-active'>best Seller</button>
-            <button className='btn'>man</button>
-            <button className='btn'>Woman</button>
-            <button className='btn'>on sell</button>
-            <button className='btn'>new</button>
+            <button onClick={()=>filterItems("all")} className={activebtn === "all" ? 'btn-active' : 'btn'}>best Seller</button>
+            <button onClick={()=>filterItems("man")} className={activebtn === "man" ? 'btn-active' : 'btn'}>man</button>
+            <button onClick={()=>filterItems("woman")} className={activebtn === "woman" ? 'btn-active' : 'btn'}>Woman</button>
+            <button onClick={()=>filterItems("onsell")} className={activebtn === "onsell" ? 'btn-active' : 'btn'}>on sell</button>
+            <button onClick={()=>filterItems("new")} className={activebtn === "new" ? 'btn-active' : 'btn'}>new</button>
         </div>
 
         <div className="product-container">
@@ -31,43 +50,22 @@ function Products() {
 function Product({product}){
     return (
         <div className="product">
-            <div style={{backgroundColor: "#F1F3F4", height: "250px"}}>
+            <div className='product-img'>
                 <Link to={`/product-details/${product.id}`}>
-                    <img style={{padding:"27px 9px", width:'178px' ,height:'185px'}} src={product.imgMain} alt="" srcSet="" />
+                    <img src={product.imgMain} alt="" srcSet="" />
                 </Link>
             </div>
-            <p className='product-category'>Men</p>
-            <p className='product-name'>Short T-Shirt</p>
-            <div className=''>
-                {
-                    (product.discount == '') ?
-                    <p className='product-price'>
-                        <span>${product.price}</span> 
-                    </p>
-                    : 
-                    <p className="product-price">
-                        <span style={{textDecoration: "line-through"}}>${product.price}</span>
-                        <span style={{color:"#FF6F61",  fontSize: "16px"}}>${product.price - ( product.price * product.discount)/100}</span>
-                    </p>
-                    
-                }
-            </div>
-            <div className="product-color">
-                {product?.color?.map((bgColor, i) => (
-                    <div key={i} style={{ backgroundColor: bgColor }} className=" c-color"></div>
-                ))}
-            </div>
 
-            <div >
+            <div>
                <ul className="hover-btns">
-                <li style={{display:"flex" , alignItems:"center", gap:"10px"}}>
-                    <button className='extra-btns'>
-                            <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7.34984 10.8707L12.0377 6.40847C13.1894 5.30668 13.3572 3.50526 12.2692 2.35389C11.9963 2.06374 11.6642 1.82959 11.293 1.66576C10.9219 1.50192 10.5195 1.41184 10.1106 1.40101C9.70162 1.39018 9.29464 1.45884 8.9145 1.60278C8.53436 1.74673 8.18904 1.96293 7.89965 2.2382L7.01995 3.08107L6.2618 2.35389C5.1043 1.25761 3.2118 1.09785 2.00222 2.13353C1.6974 2.39327 1.45141 2.70944 1.27929 3.06272C1.10718 3.41601 1.01254 3.79899 1.00116 4.18826C0.989789 4.57754 1.06192 4.96493 1.21314 5.32678C1.36436 5.68862 1.5915 6.01732 1.88068 6.29278L6.69007 10.8707C6.77785 10.9535 6.8964 10.9999 7.01995 10.9999C7.1435 10.9999 7.26206 10.9535 7.34984 10.8707V10.8707Z" stroke="#0E0E10" strokeLinecap="round" strokeLinejoin="round"/>
-                            </svg>
-                    </button>
-                    <span className='tooltip'>Add to Favorite</span>
-                </li>
+                    <li style={{display:"flex" , alignItems:"center", gap:"10px"}}>
+                        <button className='extra-btns'>
+                                <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.34984 10.8707L12.0377 6.40847C13.1894 5.30668 13.3572 3.50526 12.2692 2.35389C11.9963 2.06374 11.6642 1.82959 11.293 1.66576C10.9219 1.50192 10.5195 1.41184 10.1106 1.40101C9.70162 1.39018 9.29464 1.45884 8.9145 1.60278C8.53436 1.74673 8.18904 1.96293 7.89965 2.2382L7.01995 3.08107L6.2618 2.35389C5.1043 1.25761 3.2118 1.09785 2.00222 2.13353C1.6974 2.39327 1.45141 2.70944 1.27929 3.06272C1.10718 3.41601 1.01254 3.79899 1.00116 4.18826C0.989789 4.57754 1.06192 4.96493 1.21314 5.32678C1.36436 5.68862 1.5915 6.01732 1.88068 6.29278L6.69007 10.8707C6.77785 10.9535 6.8964 10.9999 7.01995 10.9999C7.1435 10.9999 7.26206 10.9535 7.34984 10.8707V10.8707Z" stroke="#0E0E10" strokeLinecap="round" strokeLinejoin="round"/>
+                                </svg>
+                        </button>
+                        <span className='tooltip'>Add to Favorite</span>
+                    </li>
                     <li style={{display:"flex" , alignItems:"center", gap:"10px"}}>
                         <button className='extra-btns'>
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -89,6 +87,29 @@ function Product({product}){
                     </li>
                </ul>
             </div>
+            <p className='product-category'>{product.categoty}</p>
+            <p className='product-name'>{product.name}</p>
+            <div className=''>
+                {
+                    (product.discount === '') ?
+                    <p className='product-price'>
+                        <span>${product.price}</span> 
+                    </p>
+                    : 
+                    <p className="product-price">
+                        <span style={{textDecoration: "line-through"}}>${product.price}</span>
+                        <span className='discounted-price'>${product.price - ( product.price * product.discount)/100}</span>
+                    </p>
+                    
+                }
+            </div>
+            <div className="product-color">
+                {product?.color?.map((bgColor, i) => (
+                    <div key={i} style={{ backgroundColor: bgColor }} className="c-color"></div>
+                ))}
+            </div>
+
+            
 
             <div className="status">
                 {
